@@ -1,0 +1,39 @@
+body{
+    color:red;
+}
+
+.title{
+    font-size: 6rem;
+}
+
+.subtitle{
+    font-size: 4rem;
+}
+
+/* Run this in all screens and anything less than 500 px; all is optional and default */
+
+@media all and (max-width: 500px) {
+    body{
+        color:blue;
+    }
+}
+
+/* Use , for or */
+@media (orientation:landscape), (max-width:500px){
+    .title{
+        color:green;
+    }
+}
+
+@media all and (max-width: 500px) {
+    body{
+        color:blue;
+    }
+}
+
+
+@media print {
+    body{
+        color:orange;
+    }
+}

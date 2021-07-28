@@ -1,0 +1,25 @@
+/* We need to put display:flex to set up flexbox container */
+.flexbox-container{
+    display: flex;
+}
+
+/* Width automatically gets adjusted if we reduce the browser size; hence flexbox is responsive */
+.flexbox-item {
+    width:200px;
+    margin:10px;
+    border:3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-1{
+    min-height: 100px;
+}
+
+.flexbox-item-2{
+    min-height: 200px;
+}
+
+.flexbox-item-3{
+    min-height: 300px;
+}
+

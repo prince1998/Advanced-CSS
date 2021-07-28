@@ -1,0 +1,41 @@
+
+
+.parent {
+    position: relative;
+    height: 200vh;
+
+}
+
+.child-one{
+    position: absolute;
+    top:10px;
+}
+
+.child-two{
+
+}
+
+.child-three{
+    
+}
+
+.parent{
+    padding: 5px;
+    background-color: blue;
+}
+
+.child{
+    padding: 5px;
+}
+
+.child-one{
+    background-color: green;
+}
+
+.child-two{
+    background-color: red;
+}
+
+.child-three{
+    background-color: pink;
+}

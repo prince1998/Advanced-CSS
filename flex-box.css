@@ -1,0 +1,66 @@
+@media (max-width:768px) {
+
+.container-1{
+    display: flex;
+    /* To prevent flex items from stretching use the following properties */
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    /* default is stretch */
+    align-items: stretch; 
+    /* align items column-wise */
+    /* flex-direction: column; */
+
+}
+
+.container-2{
+    display: flex;
+    /* Default justify content is flext-start */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* To have equally spaced out spaces in between items use space-between */
+    justify-content: space-between;
+    /* To have space between initial boxes and space after last box */
+    /* justify-content: space-around; */
+}
+}
+
+.container-3{
+    display: flex;
+    /* To place the box down use flex-wrap:wrap */
+    flex-wrap: wrap;
+    /* To reverse the flex wrap */
+    /* In this way box eleven and twelve are placed above and rest are placed below */
+    flex-wrap: wrap-reverse
+    ;
+}
+.container-1 div, .container-2 div, .container-3 div{
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+
+
+.box-1{
+    flex:2;
+    order:2;
+}
+
+.box-2{
+    flex:1;
+    order:1;
+}
+
+.box-3{
+    flex:1;
+    order:3;
+}
+
+.container-2-box{
+    width: 25%;
+}
+
+.container-3-box{
+    flex-basis: 17%;
+}
